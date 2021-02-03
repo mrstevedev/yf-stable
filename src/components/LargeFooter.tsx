@@ -23,7 +23,7 @@ export const LargeFooter: React.FC = () => {
                 </ul>
                 </div>
                 </div>                
-                <img src={ LogoFooter } alt="logo footer" />
+                <img src={ LogoFooter } alt="logo footer" className="logo-footer" />
             </div>
         </div>
     )
