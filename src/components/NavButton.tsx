@@ -3,7 +3,7 @@ import React from 'react';
 export const NavButton: React.FC = () => {
     return (
         <div>
-            <button className="yf__nav-button button">Presale</button>
+            <a className="yf__nav-button button">Presale</a>
         </div>
     );
 }
