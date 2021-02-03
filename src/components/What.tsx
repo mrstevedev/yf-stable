@@ -18,7 +18,7 @@ export const What: React.FC = () => {
                     <li>Offering a hedge against extreme market movements for a large number of assets</li>
                     <li>Protecting investors against sudden localized spikes in both supply and demand.</li>
                 </ul>
-                <button className="button">Learn More</button>
+                {/* <button className="button">Learn More</button> */}
                 </div>
                 <div className="yf__what-right">
                     <img src={graphics_about} />
