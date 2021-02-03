@@ -72,6 +72,12 @@ body {
     cursor: pointer;
     text-transform: uppercase;
     font-size: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background: #fff;
+    color: #000;
 
     &:hover {
       background: #fff;
@@ -165,14 +171,14 @@ body {
   align-items: center;
 }
 
-// @font-face {
-//     font-family: 'Rubik One';
-//     src: url('../public/fonts/RubikOne-Regular.woff2') format('woff2'),
-//         url('../public/fonts/RubikOne-Regular.woff') format('woff');
-//     font-weight: normal;
-//     font-style: normal;
-//     font-display: swap;
-// }
+@font-face {
+    font-family: 'Rubik One';
+    src: url('../public/fonts/RubikOne-Regular.woff2') format('woff2'),
+        url('../public/fonts/RubikOne-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 .yf__what-glass-btn {
   background: rgba(255, 255, 255, 0.03);
@@ -240,7 +246,9 @@ body {
   margin: 0 auto;
   z-index: 1;
   .yf__how-system-bottom {
-    text-align: center;
+    .button {
+      margin: 0 auto;
+    }
   }
 }
 
@@ -259,6 +267,15 @@ body {
     font-family: "Rubik One";
     font-weight: 100;
     text-align: center;
+
+       &::after {
+      content: "";
+      display: block;
+      height: 4px;
+      width: 87px;
+      background: #ff2795;
+      margin: 0 auto;
+    }
   }
 }
 
@@ -516,7 +533,7 @@ body {
       }
     }
     .yf__how-system-bottom {
-      button {
+      .button {
         width: 100% !important;
       }
     }
@@ -645,7 +662,7 @@ body {
       display: block;
       height: 4px;
       width: 87px;
-      background: #ff2795;
+      background: #0BAAFF;
       margin: 0 auto;
     }
   }
