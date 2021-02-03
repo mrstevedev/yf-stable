@@ -542,6 +542,9 @@ body {
       li {
         font-size: 1.7rem;
       }
+      .yf__tokenomics-col-left {
+        text-align: center;
+      }
 
       .yf__tokenomics-col-right {
         padding: 2rem 0rem !important;
@@ -560,6 +563,12 @@ body {
   .yf__footer {
     padding: 1rem 0;
   }
+
+  .yf__footer-large {
+    .logo-footer {
+      width: 100px;
+    }
+  }
 }
 
 .yf__tokenomics {
@@ -571,7 +580,7 @@ body {
 
   .yf__tokenomics-2col {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 100%;
     padding: 3rem 0;
 
@@ -592,7 +601,7 @@ body {
       padding: 0 1rem;
     }
     .yf__tokenomics-col-right {
-      padding: 1px 10rem;
+      padding: 1px 3rem;
     }
   }
   h1 {
