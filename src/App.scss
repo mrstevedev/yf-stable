@@ -172,12 +172,12 @@ body {
 }
 
 @font-face {
-    font-family: 'Rubik One';
-    src: url('../public/fonts/RubikOne-Regular.woff2') format('woff2'),
-        url('../public/fonts/RubikOne-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Rubik One";
+  src: url("../public/fonts/RubikOne-Regular.woff2") format("woff2"),
+    url("../public/fonts/RubikOne-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 .yf__what-glass-btn {
@@ -232,6 +232,17 @@ body {
     font-size: 0.75em;
     text-transform: uppercase;
   }
+  .yf__social-icons {
+    .yf__social-list {
+      list-style: none;
+      display: flex;
+      align-items: center;
+
+      li {
+        padding: 0 0.5rem;
+      }
+    }
+  }
 }
 
 .yf__how-system-glass {
@@ -268,7 +279,7 @@ body {
     font-weight: 100;
     text-align: center;
 
-       &::after {
+    &::after {
       content: "";
       display: block;
       height: 4px;
@@ -308,7 +319,6 @@ body {
   .yf__how-system-row-right {
     padding: 0 5rem;
     width: 100%;
-
 
     &.right {
       text-align: right;
@@ -662,7 +672,7 @@ body {
       display: block;
       height: 4px;
       width: 87px;
-      background: #0BAAFF;
+      background: #0baaff;
       margin: 0 auto;
     }
   }
