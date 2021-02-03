@@ -13,7 +13,7 @@ export const How: React.FC = () => {
                     <div className="yf__how-system-number">1</div>
                     <div className="yf__how-system-row-right">
                         <h2 className="pink">Specific Asset Liquidity Protection</h2>
-                        <p>Through creating a XST-ASSET pool, provide safety from market volatility. In return, the pools help build the YFStable ecosystem.</p>
+                        <p>Through creating a YFSTABLE-Asset pool, provide safety from market volatility. In return, the pools help build the YFStable ecosystem.</p>
                     </div>
                 </div>
                 <div className="yf__how-system-row right">
@@ -52,7 +52,7 @@ export const How: React.FC = () => {
                     <div className="yf__how-system-number">6</div>
                 </div>
                 <div className="yf__how-system-bottom">
-                    <button className="button">Get some XST</button>
+                    <a className="button">Get some XST</a>
                 </div>
             </div>
             </div>
