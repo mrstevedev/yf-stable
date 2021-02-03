@@ -9,7 +9,7 @@ export const Header: React.FC = () => {
             <div className="container">
                 <a href="#home"><img src={LogoHeader} /></a>
                 <Navbar></Navbar>
-                <NavButton></NavButton>
+                {/* <NavButton></NavButton> */}
             </div>
         </header>
     )
