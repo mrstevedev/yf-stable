@@ -187,8 +187,6 @@ export const Tokenomics: React.FC = () => {
                     <ul>
                         <li><span className="yf__tokenomics-col-right-list-perc">66% -</span> Liquidity Pool</li>
                         <li><span className="yf__tokenomics-col-right-list-perc">11% -</span> Ecosystem</li>
-                        <li><span className="yf__tokenomics-col-right-list-perc">10% -</span> Team</li>
-                        <li><span className="yf__tokenomics-col-right-list-perc">10% -</span> Presale</li>
                         <li><span className="yf__tokenomics-col-right-list-perc">11% -</span> Marketing</li>
                         <li><span className="yf__tokenomics-col-right-list-perc">11% -</span> Community Rewards</li>
                     </ul>
