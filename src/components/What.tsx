@@ -7,7 +7,7 @@ export const What: React.FC = () => {
             <div className="container">
                 <div className="yf__what-left">
                 <h1>About YF<span className="yf__what-txt-colored-pink">Stable?</span></h1>
-                <p>YFstable is a stable coin inspired by Xstable that uses modified concepts based on upon market demand.</p><br/>
+                <p>YFstable is a stablecoin inspired by Xstable that uses modified concepts based upon market demand to determine both its supply and value.</p><br/>
 
                 <p>
                     Responding to the markets demand for YFStable, it adjusts it’s supply to assure there is always an effective balance between the tokens supply as well as the determined market value.        
