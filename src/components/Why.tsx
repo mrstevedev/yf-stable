@@ -15,23 +15,23 @@ export const Why: React.FC = () => {
                     <div className="yf__why-bottom-col-1">
                         <img src={equilibrium} />
                         <h2>Gaining From The Equilibrium</h2>
-                        <p>- Investor 1 buys 100 YFStable from the market. Their 1% transaction tax is distributed to all holders as 1 YFStable is minted for this cause.
-                        - Investor 2 sells 100 YFStable to the market. Their 1% transaction tax is burnt, decreasing the supply and increasing holder value.
+                        <p>- User 1 buys 100 YFStable from the market. Their 1% transaction tax is distributed to all holders as 1 YFStable is minted for this cause.
+                        - User 2 sells 100 YFStable to the market. Their 1% transaction tax is burnt, decreasing the supply and increasing holder value.
                         - During these transactions, while there is no increase in price as an equal amount is bought and sold. However, supply remains the same yet all holders hold more YFStable, increasing their equity.
                         </p>
                     </div>
                     <div className="yf__why-bottom-col-2">
                         <img src={expansion} />
                         <h2>Gaining From The Expansion</h2>
-                        <p>- Investor 1 buys 1000 YFStable from the market. 20% of the transaction is taxed, minting 200 YFStable and delivering to all holders.
-                        - Investor 2 sells 100 YFStable to the market. 1% of their transaction, or 1 YFStable is taxed and burnt burnt, decreasing the supply and increasing holder value.
+                        <p>- User 1 buys 1000 YFStable from the market. 20% of the transaction is taxed, minting 200 YFStable and delivering to all holders.
+                        - User 2 sells 100 YFStable to the market. 1% of their transaction, or 1 YFStable is taxed and burnt burnt, decreasing the supply and increasing holder value.
                         - During these transactions, the YFStable price has increased as well as its supply. In return, holders still hold more YFStable, increasing their equity.
                         </p>
                     </div>
                     <div className="yf__why-bottom-col-3">
                         <img src={contraction} />
                         <h2>Gaining From The Contraction</h2>
-                        <p>- Investor 1 buys 1000 YFStable from the market. 20% of the transaction is taxed, minting 200 YFStable and delivering to all holders.
+                        <p>- User 1 buys 1000 YFStable from the market. 20% of the transaction is taxed, minting 200 YFStable and delivering to all holders.
                         - Investor 2 sells 100 YFStable to the market. 1% of their transaction, or 1 YFStable is taxed and burnt burnt, decreasing the supply and increasing holder value.
                         - During these transactions, the YFStable price has increased as well as its supply. In return, holders still hold more YFStable, increasing their equity.
                         </p>
