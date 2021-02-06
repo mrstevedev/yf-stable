@@ -253,6 +253,8 @@ body {
   // box-shadow: inset 0px 0px 68px rgba(255, 255, 255, 0.05),
   //   inset 0px 4px 4px rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(86px);
+  -webkit-backdrop-filter: blur(86px);
+  -moz-backdrop-filter: blur(86px);
   border-radius: 62px;
   margin: 0 auto;
   z-index: 1;
