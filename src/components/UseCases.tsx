@@ -23,7 +23,7 @@ export const UseCases: React.FC = () => {
                     <div className="yf__usecases-bottom-col">
                         <img src={safety} height="72" />
                         <h2>A Decentralized Safety Net</h2>
-                        <p>Through its system which works to ensure its value doesn’t spike and crash in cycles, its stability becomes a safe haven investors in the defi space.</p>
+                        <p>Through its system which works to ensure its value doesn’t spike and crash in cycles, its stability becomes a safe haven users in the defi space.</p>
                     </div>
                 </div>
             </div>
