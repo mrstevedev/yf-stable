@@ -13,10 +13,10 @@ export const What: React.FC = () => {
                     Responding to the markets demand for YFStable, it adjusts it’s supply to assure there is always an effective balance between the tokens supply as well as the determined market value.        
                 </p><br/><br/>
                 <ul>
-                    <strong>YFStable provides value to its investors by: </strong>
+                    <strong>YFStable provides value to its users by: </strong>
                     <li>Consistently increasing the equity of those who hold.</li>
                     <li>Offering a hedge against extreme market movements for a large number of assets</li>
-                    <li>Protecting investors against sudden localized spikes in both supply and demand.</li>
+                    <li>Protecting users against sudden localized spikes in both supply and demand.</li>
                 </ul>
                 {/* <button className="button">Learn More</button> */}
                 </div>
