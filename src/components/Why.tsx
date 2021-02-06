@@ -32,7 +32,7 @@ export const Why: React.FC = () => {
                         <img src={contraction} />
                         <h2>Gaining From The Contraction</h2>
                         <p>- User 1 buys 1000 YFStable from the market. 20% of the transaction is taxed, minting 200 YFStable and delivering to all holders.
-                        - Investor 2 sells 100 YFStable to the market. 1% of their transaction, or 1 YFStable is taxed and burnt burnt, decreasing the supply and increasing holder value.
+                        - User 2 sells 100 YFStable to the market. 1% of their transaction, or 1 YFStable is taxed and burnt burnt, decreasing the supply and increasing holder value.
                         - During these transactions, the YFStable price has increased as well as its supply. In return, holders still hold more YFStable, increasing their equity.
                         </p>
                     </div>
