@@ -52,7 +52,7 @@ export const How: React.FC = () => {
                     <div className="yf__how-system-number">6</div>
                 </div>
                 <div className="yf__how-system-bottom">
-                    <a className="button">Get some XST</a>
+                    <a className="button">Get YFstable</a>
                 </div>
             </div>
             </div>
