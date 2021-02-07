@@ -52,7 +52,7 @@ export const How: React.FC = () => {
                     <div className="yf__how-system-number">6</div>
                 </div>
                 <div className="yf__how-system-bottom">
-                    <a className="button">Get YFstable</a>
+                    <a href="https://app.uniswap.org/#/swap?inputCurrency=0xc39922971c1fedb5b18dd5d15a5424264c24d38a" className="button">Get YFstable</a>
                 </div>
             </div>
             </div>
