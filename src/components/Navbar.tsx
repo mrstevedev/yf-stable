@@ -1,4 +1,5 @@
 import React, { Fragment, useEffect } from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 
 export const Navbar: React.FC = () => {
 
@@ -39,11 +40,11 @@ export const Navbar: React.FC = () => {
     return (
         <Fragment>
             <ul className="yf__top-nav-list">
-                <li><a className="links" href="#what" onClick={handleClick}>What is it?</a></li>
-                <li><a className="links" href="#how" onClick={handleClick}>How it works?</a></li>
-                <li><a className="links" href="#why" onClick={handleClick}>Why it works?</a></li>
-                <li><a className="links" href="#tokenomics" onClick={handleClick}>Tokenomics</a></li>
-                <li><a className="links" href="#cases" onClick={handleClick}>Use Cases</a></li>
+                <li><Link className="links" to="#what" onClick={handleClick}>What is it?</Link></li>
+                <li><Link className="links" to="#how" onClick={handleClick}>How it works?</Link></li>
+                <li><Link className="links" to="#why" onClick={handleClick}>Why it works?</Link></li>
+                <li><Link className="links" to="#tokenomics" onClick={handleClick}>Tokenomics</Link></li>
+                <li><Link className="links" to="#cases" onClick={handleClick}>Use Cases</Link></li>
             </ul>
         </Fragment>
     )
