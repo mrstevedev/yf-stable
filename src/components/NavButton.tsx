@@ -1,9 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const NavButton: React.FC = () => {
     return (
         <div>
-            <a className="yf__nav-button button">Presale</a>
+            <Link className="yf__nav-button button" to={{
+                pathname: '/dashboard'
+            }}>Dashboard</Link>
         </div>
     );
 }
