@@ -21,7 +21,7 @@ export const What: React.FC = () => {
                 {/* <button className="button">Learn More</button> */}
                 </div>
                 <div className="yf__what-right">
-                    <img src={graphics_about} />
+                    <img src={graphics_about} width="476" height="389" />
                 </div>
             </div>
         </div>
