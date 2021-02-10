@@ -5,7 +5,7 @@ export const Footer: React.FC = () => {
     return (
         <div className="yf__footer">
             <div className="container">
-                <p>2020 ©YFStable</p>
+                <p>2021 ©YFStable</p>
                 <div className="yf__social-icons">
                     <ul className="yf__social-list">
                         <a href="https://twitter.com/YfStable" target="_blank">
