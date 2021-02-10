@@ -57,11 +57,11 @@ export const Dashboard: React.FC = () => {
                                 <div className="col">
                                     Pool Reserves
                                 </div>
-                                <div className="col">{eth?.poolBalance ? Number(eth?.poolBalance).toFixed(2) : '-'} XST / { eth?.ethBalance ? Number(eth?.ethBalance).toFixed(2) : '-' }</div>
+                                <div className="col">{eth?.poolBalance ? Number(eth?.poolBalance).toFixed(2) : '-'} XST / { eth?.ethBalance ? Number(eth?.ethBalance).toFixed(2) : '-' } ETH</div>
                             </div>
                             <div className="row">
                                 <div className="col">Pool Reserves At epoch beginning</div>
-                                <div className="col">{eth?.startPoolBalance ? Number(eth?.startPoolBalance).toFixed(2) : '-'} XST / { eth?.startEthBalance ? Number(eth?.startEthBalance).toFixed(2) : '-' }</div>
+                                <div className="col">{eth?.startPoolBalance ? Number(eth?.startPoolBalance).toFixed(2) : '-'} XST / { eth?.startEthBalance ? Number(eth?.startEthBalance).toFixed(2) : '-' } ETH</div>
                             </div>
                             <div className="row">
                                 <div className="col">Pool Ratios</div>
