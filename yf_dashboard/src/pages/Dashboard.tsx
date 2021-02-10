@@ -1,5 +1,4 @@
 import React, { Fragment, useEffect, useState } from 'react';
-import LogoHeader from '../../public/logo_header.png';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 
