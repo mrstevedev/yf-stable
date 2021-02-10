@@ -37,7 +37,7 @@ export const Dashboard: React.FC = () => {
                     <div className="yf__how-diagonal-large blue-1"></div>
                     <div className="yf__how-diagonal-large pink-1"></div>
                     <div className="yf__how-system-glass">
-                        <h1 className="yf__dashboard-header">Eth - XST Pool</h1>
+                        <h1 className="yf__dashboard-header">Eth - YFST Pool</h1>
                         <div className="yf__presale-form">
                             <div className="row">
                                 <div className="col">
@@ -57,11 +57,11 @@ export const Dashboard: React.FC = () => {
                                 <div className="col">
                                     Pool Reserves
                                 </div>
-                                <div className="col">{eth?.poolBalance ? Number(eth?.poolBalance).toFixed(2) : '-'} XST / { eth?.ethBalance ? Number(eth?.ethBalance).toFixed(2) : '-' } ETH</div>
+                                <div className="col">{eth?.poolBalance ? Number(eth?.poolBalance).toFixed(2) : '-'} YFST / { eth?.ethBalance ? Number(eth?.ethBalance).toFixed(2) : '-' } ETH</div>
                             </div>
                             <div className="row">
                                 <div className="col">Pool Reserves At epoch beginning</div>
-                                <div className="col">{eth?.startPoolBalance ? Number(eth?.startPoolBalance).toFixed(2) : '-'} XST / { eth?.startEthBalance ? Number(eth?.startEthBalance).toFixed(2) : '-' } ETH</div>
+                                <div className="col">{eth?.startPoolBalance ? Number(eth?.startPoolBalance).toFixed(2) : '-'} YFST / { eth?.startEthBalance ? Number(eth?.startEthBalance).toFixed(2) : '-' } ETH</div>
                             </div>
                             <div className="row">
                                 <div className="col">Pool Ratios</div>
