@@ -1,6 +1,7 @@
 import React, { Fragment, useEffect, useState } from 'react';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
+import Web3 from 'web3';
 
 export const Dashboard: React.FC = () => {
 
