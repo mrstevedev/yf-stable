@@ -145,6 +145,13 @@ body {
       width: 500px;
     }
 
+    .yf__what-right {
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
     .yf__what-left h1::after {
       content: "";
       display: block;
