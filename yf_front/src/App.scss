@@ -12,7 +12,7 @@ body {
   height: 100vh;
 
   .yf__top-header {
-    height: 72px;
+    height: 87px;
     background: #000;
     display: flex;
     align-items: center;
@@ -262,6 +262,7 @@ body {
   backdrop-filter: blur(86px);
   -webkit-backdrop-filter: blur(86px);
   -moz-backdrop-filter: blur(86px);
+  mix-blend-mode: lighten;
   border-radius: 62px;
   margin: 0 auto;
   z-index: 1;
@@ -620,6 +621,7 @@ body {
   .yf__footer-large {
     .logo-footer {
       width: 100px;
+      height: 100px;
     }
   }
 
