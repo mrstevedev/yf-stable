@@ -9,7 +9,7 @@ export const Tokenomics: React.FC = () => {
 
             <div className="yf__tokenomics-2col">
                 <div className="yf__tokenomics-col-left">
-                <img src={tokenomiks} />
+                <img src={tokenomiks} width="349" height="272" />
 
                 </div>
                 <div className="yf__tokenomics-col-right">
