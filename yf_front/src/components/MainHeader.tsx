@@ -1,12 +1,11 @@
 import React from 'react';
-import imgSrc from '../../public/Logo-large.png';
-// const imgSrc = require('../../public/Logo-large.png');
+import Logo from '../../public/logo_header.jpg';
 
 export const MainHeader: React.FC = () => {
     return (
         <div className="yf__intro" id="home">
             <div className="container">
-                <img src={imgSrc} width="260" height="199" />
+                <img src={Logo} width="230" height="230" style={{ mixBlendMode: 'lighten' }} />
                 <h1 className="yf__what-heading">A stable coin with the flexibility <br /> 
                 to adjust to the market</h1>
                 <p>
