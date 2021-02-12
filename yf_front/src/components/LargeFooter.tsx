@@ -1,5 +1,5 @@
 import React from 'react';
-import LogoFooter from '../../public/logo_footer.png';
+import LogoFooter from '../../public/logo_header.jpg';
 
 export const LargeFooter: React.FC = () => {
     return (
@@ -23,7 +23,7 @@ export const LargeFooter: React.FC = () => {
                 </ul>
                 </div>
                 </div>                
-                <img src={ LogoFooter } alt="logo footer" className="logo-footer" />
+                <img src={ LogoFooter } alt="logo footer" className="logo-footer" width="220" height="220"  style={{ mixBlendMode: 'lighten' }} />
             </div>
         </div>
     )
