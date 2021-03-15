@@ -1,6 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
+const NodePolyfillPlugin = require("node-polyfill-webpack-plugin")
 
 module.exports = {
   mode: process.env.NODE_ENV === "production" ? "production" : "development",
@@ -50,5 +51,6 @@ module.exports = {
       template: path.resolve(__dirname, "./src/index.html"),
       filename: "index.html",
     }),
+    new NodePolyfillPlugin()
   ],
 };
